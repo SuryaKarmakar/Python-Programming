@@ -22,13 +22,13 @@ print(str1[0:2])
 # 2. Numbers: numbers are immutable.
 # Integers
 i = 10 
-i2 = int(10) 
+i2 = int(10.00) 
 print(type(i), type(2))
 print('i =', i, 'i2 =', i2)
 
 # Floating Point Numbers
 f = 10.00
-f2 = float(10.00)
+f2 = float(10)
 print(type(f), type(f2))
 print('f =', f, 'f2 =', f2)
 
@@ -41,3 +41,10 @@ print('c =', c)
 c2 = 44.9 + 89e4j 
 print ('real =', c2.real) 
 print ('imaginary =', c2.imag)
+
+# 3. Boolean
+bool1 = True
+print('bool1 =', bool1)
+
+# bool () function is used to verify whether a value is true or false
+print(bool(1), bool(0))
