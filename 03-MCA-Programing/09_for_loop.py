@@ -28,9 +28,16 @@ else:
     print("End of the loop") 
 
 # else will not work if we forcefully terminate the loop
+# break statement used for to forcefully terminate the loop
 for x in range(5):
     print(x)
     if x == 3:
         break
 else:
     print("End of the loop") 
+
+# continue statement are used for skiping a specific value
+for x in color:
+    if x == "red": # here red will be skiped and not printed on console
+        continue
+    print(x)
