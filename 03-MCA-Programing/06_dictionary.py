@@ -5,7 +5,7 @@
 dict1 = {
     'name': 'surya',
     'age': 24,
-    'isMale': True
+    'is_male': True
 }
 print('dict1 =', dict1)
 

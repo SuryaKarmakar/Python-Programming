@@ -4,8 +4,8 @@ num = 20
 print("num =", num)
 
 # floating-point numbers
-floatNum = 26.90 
-print("floatNum =",floatNum)
+float_num = 26.90 
+print("float_num =",float_num)
 
 # complex numbers
 cpx = 3 + 4j 
@@ -27,29 +27,29 @@ d, e, f = 2, 3, 4
 print("d =", d, "e =", e, "f =", f)
 
 # Local Variables:
-def localFunc():
-    localVar = "Local Variables"
-    print("localVar =", localVar)
-localFunc()
+def local_func():
+    local_var = "Local Variables"
+    print("local_var =", local_var)
+local_func()
 
 # Global Variables:
-globalVar = "Global Variables"
-def globalFunc():
-    print("globalVar from local scope", globalVar)
-globalFunc()
-print("globalVar from global scope", globalVar)
+global_var = "Global Variables"
+def global_func():
+    print("global_var from local scope", global_var)
+global_func()
+print("global_var from global scope", global_var)
 
 # Update global variable from local scope:
-newVal = 10
-def updateFunc():
-    global newVal
-    newVal = 20
-updateFunc()
-print(newVal)
+new_val = 10
+def update_func():
+    global new_val
+    new_val = 20
+update_func()
+print(new_val)
 
 # Delete A Variable:
-delMe = "delete me"
-print("delMe =", delMe)
-del delMe
-# NameError: name 'delMe' is not defined
-# print(delMe) 
+del_me = "delete me"
+print("del_me =", del_me)
+del del_me
+# NameError: name 'del_me' is not defined
+# print(del_me) 

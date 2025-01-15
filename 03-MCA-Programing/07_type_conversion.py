@@ -30,17 +30,17 @@ print('b1 =', b1, type(b1))
 print('b2 =', b2, type(b2))
 
 # Converts x to list
-tupleToList = list(('a', 'b', 'c'))
-print('tupleToList =', tupleToList, type(tupleToList))
+tuple_to_list = list(('a', 'b', 'c'))
+print('tuple_to_list =', tuple_to_list, type(tuple_to_list))
 
 # Converts x to set
-listToSet = set([1, 2, 3, 4])
-print('listToSet =', listToSet, type(listToSet))
+list_to_set = set([1, 2, 3, 4])
+print('list_to_set =', list_to_set, type(list_to_set))
 
 # Converts x to tuple
-listTuple = tuple([1, 2, 3])
-print('listTuple =', listTuple, type(listTuple))
+list_to_tuple = tuple([1, 2, 3])
+print('list_to_tuple =', list_to_tuple, type(list_to_tuple))
 
 # Converts x to dictionary
-tupleToDict = dict([(1, 'one'), (2, 'two')])
-print('tupleToDict =', tupleToDict, type(tupleToDict))
+tuple_to_dict = dict([(1, 'one'), (2, 'two')])
+print('tuple_to_dict =', tuple_to_dict, type(tuple_to_dict))
