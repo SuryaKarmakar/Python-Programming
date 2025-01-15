@@ -1,4 +1,4 @@
-# santax - for  <var> in range(<number>)
+# syntax - for  <var> in range(<number>)
 
 # loop will run from 0 to 4 with increments of 1.
 for x in range(5):

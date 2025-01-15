@@ -1,5 +1,5 @@
 # for loop
-# santax - for <var> in <iterable>:
+# syntax - for <var> in <iterable>:
 # var represent the lopping variable
 
 fruits = ["apple", "banana", "cherry"] 
