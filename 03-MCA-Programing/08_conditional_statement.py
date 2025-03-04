@@ -1,15 +1,15 @@
+# if-else statement
 age = int(input("Enter your age : "))
 
-# if-else statement
 if age >= 18:
     print("You can vote")
 else:
     print("You are not eligible")
 
-marks = int(input("Enter your total marks : "))
-
 # elif statement (short form of else if)
 # this is called chained condition
+marks = int(input("Enter your total marks : "))
+
 if marks >= 90:
     print("Very good")
 elif marks >= 70:
