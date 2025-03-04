@@ -16,8 +16,10 @@ print(len(str1))
 # access substring from a string
 print(str1[1])
 
-# slice a substring
+# slice a substring [starting_index : ending_index]
 print(str1[0:2])
+print(str1[0:])
+print(str1[-2:])
 
 # 2. Numbers: numbers are immutable.
 # Integers
