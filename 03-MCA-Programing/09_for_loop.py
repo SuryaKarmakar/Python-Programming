@@ -13,6 +13,18 @@ for x in fruits_tuple:
 for x in "python":
     print(x)
 
+# uisng range function. the loop will start form 0 to 4.
+for x in range(5):
+    print(x)
+
+# we can change the starting value 0 to any other. this loop will run 2 to 4.
+for x in range(2, 5):
+    print(x)
+
+# we can also change the increment value as well. this will run from 5 to 15 and increment by 2.
+for x in range(5, 16, 2):
+    print(x)
+
 # nested loop
 color = ["grean", "red", "orange"]
 
