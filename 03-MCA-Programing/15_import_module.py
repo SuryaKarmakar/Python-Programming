@@ -1,6 +1,8 @@
 # basic import
 import math
 
+import custom_package.module_a
+
 print(math.pi)
 
 # import with alias.
@@ -35,5 +37,22 @@ print(calculator_module.divide(10, 3))
 from calculator_module import subtract
 
 print(subtract(10, 4))
+
+# import modules from custom pakages.
+import custom_package
+import custom_package.module_a as module_a
+
+# import specific function uisng selective import.
+from custom_package.module_a import say_hello
+
+# import subpackages.
+from custom_package.sub_package import module_b
+
+custom_package.module_a.say_hello("Surya")
+module_a.say_hello("Ravi")
+say_hello("John")
+
+module_b.say_bye("Rahul")
+
 
 
