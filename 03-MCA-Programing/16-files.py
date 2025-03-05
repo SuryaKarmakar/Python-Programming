@@ -2,15 +2,15 @@
 file = open("example.txt", "r")
 
 # Reading text file.
-content = file.read() # reads the whole file and returns all lines
+content = file.read() # reads the whole file and returns as string.
 print(content)
 
 file.seek(0)
-line = file.readline() # reads a single line and returns a single line
+line = file.readline() # reads a single line and returns a single line.
 print(line)
 
 file.seek(0)
-lines = file.readlines() # reads all line and returns list of all lines
+lines = file.readlines() # reads all line and returns list of all lines.
 print(lines)
 
 file.close()
