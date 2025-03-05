@@ -20,19 +20,19 @@ print(pi)
 
 # handling import error
 try:
-    import pandas as pd
+    import math
 except ImportError:
     print("Pandas library not found. Install using pip to proceed.")
 
 # import custom module.
-import calculator
+import calculator_module
 
 # use functions from the calculator module
-print(calculator.add(4, 6))
-print(calculator.divide(10, 3))
+print(calculator_module.add(4, 6))
+print(calculator_module.divide(10, 3))
 
 # we can also choose to import specific attributes using Selective Import.
-from calculator import subtract
+from calculator_module import subtract
 
 print(subtract(10, 4))
 
