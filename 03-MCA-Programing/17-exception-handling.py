@@ -76,6 +76,13 @@ except ValueError:
 except ZeroDivisionError:
     print("Division By 0 Not Allowed")
 
+# Multiple Exceptions In Single Line: --------------------------
+try:
+    num = int(input("Enter a number: "))
+    result = 1/num
+except (ValueError, ZeroDivisionError) as e:
+    print(e)
+
 # Try and Finally Block: --------------------------
 try:
     file = open("README.md", "r")
@@ -114,4 +121,3 @@ except ValueToSmallError:
     print("This value is too small")
 except ValueToLargeError:
     print("This value is too large")
-
