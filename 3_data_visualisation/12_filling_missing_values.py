@@ -20,3 +20,6 @@ print(df.fillna(method="ffill"))
 
 # 3: Filling null value with the next ones
 print(df.fillna(method="bfill"))
+
+# 4: interpolate() function to fill the missing values using the linear method.
+print(df.interpolate(method="linear", limit_direction="forward"))
