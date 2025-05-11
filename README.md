@@ -1,3 +1,3 @@
 # Python Programming
 
-### Total Exp - 1 Apr 2025 - (6 Month)
+### Total Exp - 1 Feb 2025 - (3 Month)
